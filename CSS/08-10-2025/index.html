@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    /* internal css */
+    /* background color blue */
+    /* red -- presedence ( baad me aane wale ko tarjeeh dena) */
+    p {
+        color: blue;
+        /* color=>attribute,  blue=>value */
+        /*   declaration */
+        /* p =>selector */
+    }
+    h1{
+      background-color: red; 
+      color: white; 
+    }
+    #wma{
+        background-color: black;
+    }
+    body{
+        font-size: 30px;
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <!-- <h1>CSS - Cascading style sheet</h1> -->
+    <!-- cascading --set of rules and priority -->
+    <!--3 rules to define css -->
+    <!--
+     1.inline css
+     2.internal css  inside html file
+     3.external css  ( create file using link )
+    
+    -->
+    <!-- <h1  style="color: red;">InLine Css </h1> -->
+
+    <p>first css paragraph</p>
+    <h1>this is first css heading</h1>
+    <h1>this is first css heading</h1>
+    <h1>this is first css heading</h1>
+    <h1 id="wma" style="background-color: pink;">this is first css heading</h1>
+
+
+    <p>
+        dugfsh 
+        <h1>hjgfdbsb</h1>
+    </p>
+
+</body>
+
+</html>
