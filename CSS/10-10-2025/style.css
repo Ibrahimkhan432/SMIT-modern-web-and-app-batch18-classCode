@@ -1,0 +1,14 @@
+h1 {
+    /* scope */
+    color: brown;
+    /* background-color: yellow; */
+    /* h1->selector */
+    /* color->attribute */
+    /* red->value */
+    /* declaration */
+
+}
+
+p {
+    font-size: 40px;
+}
