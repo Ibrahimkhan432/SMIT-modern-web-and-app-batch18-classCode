@@ -1,0 +1,63 @@
+/* downloaded */
+@font-face {
+    font-family:"ibrahim khan";
+    src: url('./fonts/Licorice-Regular.ttf');
+}
+
+/* using link */
+/* @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap'); */
+
+/* h1 { */
+    /* color: rgba(255, 225, 225,0.1);   */
+    /* background-color: #461a62; */
+/* } */
+
+/* h1{
+    color: MediumAquaMarine;
+
+} */
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#div1{
+position: absolute;
+margin-top: 100px;
+background-color: red;
+opacity:0.1;
+}
+#div2{
+    background-color: black;
+}
+
+/* h1{
+    color: hsla(0, 0%, 100%, 0);
+} */
+ /* h1{
+    /* word-spacing: 30px */
+    /* font-size: 2em
+} */ */
+/* p{ */
+    
+    /* font-weight:700; */
+    /* font-weight:bold; */
+    /* font-style: oblique; */
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-size: 16px; */
+ /* } */
+ h1{
+    font-family: "ibrahim khan"   
+ }
+
+ P{
+    /* text-transform:uppercase; */
+    text-transform: capitalize;
+/* text-decoration: line-through; */
+text-decoration: underline;
+ }
+ a{
+    /* text-decoration: none; */
+    text-decoration: dashed;
+ }
