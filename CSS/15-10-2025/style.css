@@ -1,0 +1,97 @@
+/* 
+*{
+    padding: 0px;
+    margin: 0px;
+} */
+/* p { */
+    /* line-height: 4em;
+    font-size: 64px; */
+    /* border: 2px solid black; */
+    /* padding: 20px; */
+    /* text-align: justify; */
+    /* vertical-align: middle; */
+/* } */
+
+/* h1 { */
+    /* letter-spacing: 2em; */
+    /* word-spacing: 2em; */
+    /* text-align: right;
+    text-align: center; */
+/* } */
+
+/* #div1 { */
+    /* background-color: red; */
+    /* display: flex; */
+    /* height: 600px; */
+    /* width: 300px;
+    height: 300px; */
+/* } */
+
+/* span{
+    
+    vertical-align: top;
+} */
+/* p{
+    text-indent: 60px;
+} */
+/* h2{
+    text-indent: 1200px;
+} */
+/* h1{
+    text-shadow: -7px 2px 4px red
+}
+p:first-letter   {
+    font-size: 3em;
+}
+p::first-line   {
+    font-size: 2em;
+}
+a:active{
+    color: red;
+}
+input:focus{
+background-color: yellow;
+}
+button:focus{
+    background-color: blue;
+    color: white;
+border: none;
+} */
+/* p:hover{
+    font-size: 30px;
+} */
+/* button:hover{
+background-color: red;
+} */
+/* button[class~="btn"]{
+    background-color: red;
+ } */
+
+/* button[class^="c"]{
+font-size: 40px;
+ } */
+
+/* div { */
+    /* use px  when you want fixed width or height*/
+    /* use %  when you want responsive width or height*/
+    /* width: 400px; */
+    /* min-width: 400px;
+    max-width: 700px; */
+    /* width: 100%; */
+    /* height: 400px; */
+    /* min-height: 100px;
+    max-height: 700px; */
+    /* height: 100%; */
+    /* border: 5px solid black; */
+    /* background-color: red; */
+    /* overflow-y: scroll; */
+/* }
+#div1{
+    border: 2px solid red;
+    padding: 40px;
+    margin: 40px;
+}
+p{
+    margin: 40px;
+} */
+
