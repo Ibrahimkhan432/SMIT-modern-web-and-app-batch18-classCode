@@ -1,0 +1,77 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+        font-family: 'Poppins', sans-serif;
+    }
+/* body{
+    background-color: aqua;
+    text-align: center;
+} */
+div{
+    /* width: 300px;
+    height: 300px;
+    border-top-width: 2px; */
+    /* border-right-width: 2px; */
+    /* border short cut */
+    /* border-width: 0px 10px 0px 0px; */
+    /* border-width:20px 20px 20px;
+    border-style:solid; */
+    /* border-style:dashed; */
+    /* border-style:double; */
+    /* border-style:hidden; */
+    /* border-color */
+    /* margin-top:10px;
+    margin-right: 20PX;
+    margin-bottom: 10px;
+    margin-left: 20px; */
+    /* short cut */
+    /* margin: 20px 20px 30px 10px;
+    background-color: orange;
+    border-top-color:red;
+    border-right-color:blue;
+     */
+}
+div > p{
+    /* padding-top: 10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+    /* text-align: justify; */
+    /* display: inline-block; */
+}
+#div2{
+    /* margin-top: 100px; */
+   /* margin:100px; */
+}
+
+ul{
+list-style: none;
+}
+ul>li{
+    display:inline;
+}
+/* div{
+    width: 100%;
+    background-color: lightgray;
+    padding: 20px;
+} */
+div>ul>li{
+font-size: 30px;
+margin-left:20px ;
+}
+ul>#hide{
+    visibility: hidden;
+    visibility:visible;
+}
+#imageDiv{
+width: 400px;
+height: 400px;
+border: 2px solid black;
+/* box-shadow: 10px 20px 30px 0px gray; */
+/* border-bottom-left-radius: 300px;
+border-top-right-radius: 300px; */
+/* short cut */
+/* border-radius: 0px 300px 0px 300px; */
+border-top-right-radius:100px 400px ;
+
+/* background-image: url('https://static.independent.co.uk/2025/01/30/16/35/BYD-Seal-vs-Tesla-Model-3.png?width=1200'); */
+}
