@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  /* list-style-image: url('https://static.thenounproject.com/png/4084271-200.png'); */
+}
+ol {
+  list-style-type: lower-roman;
+  /* list-style-position: inside; */
+  list-style-position: outside;
+  /* short cut */
+  list-style: inside lower-roman;
+}
+/* th{
+    border-bottom: 2px solid black;
+}
+tr.even{
+    background-color: lightgrey;
+} */
+td {
+  border: 1px solid #0088dd;
+  padding: 15px;
+}
+table.one {
+  empty-cells: hide;
+  border-spacing: 20px;
+}
+button{
+    /* cursor: pointer; */
+    /* cursor: help; */
+    cursor: move;
+}
+
