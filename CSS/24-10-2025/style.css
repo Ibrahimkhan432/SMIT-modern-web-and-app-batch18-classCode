@@ -1,0 +1,70 @@
+@import url('./font.css');
+
+.floating {
+  float: left;
+  width: 400px;
+}
+p {
+  width: 100%;
+  /* float: left; */
+  /* margin: 5px;
+  padding: 5px; */
+  background-color: #efefef;
+}
+body {
+  /* width: 750px; */
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  /* background-color: red; */
+}
+.right{
+    float: right;
+    width:600px ;
+    color: white;
+}
+#test{
+    width: 400px;
+    border: 2px solid black;
+}
+#p{
+    font-size: 60px;
+}
+div{
+    /* border: 2px solid #000000; */
+    display: grid;
+    grid-template-columns:[one]100px [two]100px [three]100px [four]100px;
+    /* grid-template-columns:1fr 1fr 3fr; */
+    grid-template-rows: [one-r]100px [two-r]100px [three-r]100px [four-r]100px;
+     /* width: 100px;
+    height: 100px;  */
+}
+.items{
+    background-color: red;
+    list-style-type:none;
+    /* width: 300px;
+    height: 200px; */
+}
+.item1{
+background-color: blue;
+grid-column: one/five;
+}
+.item2{
+background-color: pink;
+/* grid-column: one/three; */
+grid-area: 3 span / 4 span;
+}
+.item3{
+background-color: rgb(164, 251, 181);
+grid-column: three/five;
+}
+#multiple{
+background-color: red;
+}
+#img{
+    border: 2px solid black;
+    margin: 10px auto;
+    width: 200px;
+}
+#img>img{
+    width: 100%;
+}
