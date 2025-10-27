@@ -1,0 +1,40 @@
+body{
+    background-repeat: no-repeat;
+    /* background-position: top center; */
+    /* background-position:right bottom; */
+    /* background-position:left top; */
+    /* background-position: center center; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-attachment:scroll ; */
+    /* background-size: cover; */
+/* width: 1600px; */
+}
+/* () //parenthesis.  */
+/* {}//braces */
+/* []//bracket */
+body:hover{
+    /* background-position: -40px -70px; */
+}
+button:hover{
+    /* padding: 20px; */
+}
+div{
+    /* background-color: red; */
+    /* background-image: url('https://www.freeiconspng.com/uploads/submit-button-png-9.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: ; */
+}
+body{
+    /* background-image: linear-gradient(to bottom,green, blue); */
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+span, br, {
+    display:
+}
