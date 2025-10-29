@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    /* gap: 100px 70px; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column; */
+    /* justify-content:space-around ; */
+    /* justify-content:space-evenly; */
+    /* align-items:flex-end; */
+    /* align-content: space-between */
+;
+    /* align items works if container have limited height */
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.item1{
+    background-color: blue;
+    height: 200px;
+}
+.lastitem{
+    flex-grow: 3;
+}
+.item5{
+    background-color: yellow;
+    /* align-self: flex-end; */
+    align-self: center;
+}
