@@ -1,0 +1,108 @@
+.container {
+  /* border: 2px solid black; */
+  display:grid;
+  grid-template-columns:[col-1] 200px [col-2] 400px [col-3] 400px [col-4] 400px;
+  /* grid-template-columns: 25% 25% 25% 25%; ; */
+  /* grid-template-rows: 200px 200px 200px 200px 200px 200px 200px; */
+  grid-template-rows:[row-1] 100px [row-2] 100px [row-3] 100px [row-4] 100px;
+ 
+ grid-template-rows: repeat(4 , 200px);
+                    /* same as 200px 200px 200px 200px; */
+grid-template-rows:minmax(200px,300px) 200px 200px  ;
+
+/* row-gap: 20px;  */
+/* column-gap: 20px; 
+/* gap:20px 70px; */
+justify-content: center;
+/* grid-template-areas:
+    header header header header
+    menue header header header
+    menue article article article
+    footer footer footer footer;
+} */
+/* .item1{
+    grid-area: menu;
+} */
+.container .item {
+  /* margin: 10px; */
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+.item1{
+    /* grid-column-start:col-1 ;
+    grid-column-end:col-4 ; */
+    /* short cut */
+grid-column: col-1 / col-5; ;
+background-color: red;
+}
+.item2{ 
+    grid-area: span 4 / span 1   ;
+    background-color: blue;
+}
+.item3{
+    background-color: greenyellow;
+    grid-column: col-2 / col-5;
+}
+.item4{
+    background-color: green;
+    grid-area: span 2 / span 4;
+}
+.item5{
+    background-color: black;
+    grid-column: col-1 / col-5;
+}
+.icon{
+    display: none;
+}
+.fa-bars{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.btns button {
+    /* padding: 10px 14px; */
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-width: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        display: grid;
+        grid-template-columns:[col-1] 240px [col-2] 240px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+    }
+    .item1{
+        grid-column:col-1 / col-3;
+    }
+    .item2{
+        /* grid-column:col-1 / col-3; */
+        grid-area: span 1 / span 3;
+    }
+    .item3{
+                grid-column:col-1 / col-3;
+
+    }
+    .list{
+        display: none;
+    }
+  .icon{
+    display: inline-block;
+    visibility: visible;
+   }
+   .btns{
+    display: none;
+   }
+}
+}
