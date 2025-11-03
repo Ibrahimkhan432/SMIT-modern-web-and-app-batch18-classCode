@@ -1,0 +1,7 @@
+input:focus{
+    background-color: aqua;
+    color: white;
+}
+.ibrahim:focus{
+    background-color: blue;
+}
