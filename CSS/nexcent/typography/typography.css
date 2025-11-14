@@ -1,0 +1,11 @@
+:root{
+    --primaryColor--:#4CAF4F;
+    --secondayColor--:green
+}
+.title{
+    font-size: 30px;
+    color: var(--primaryColor--);
+}
+.subtitle{
+    color:blue !important
+}
