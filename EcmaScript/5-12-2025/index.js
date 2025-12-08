@@ -23,6 +23,7 @@
 
 var checkStndt = prompt("enter your name");
 var firstChar = checkStndt.slice(0, 1);
+pakistan
 var firstChar = firstChar.toUpperCase();
 // console.log(firstChar);
 var RemainingCharacters = checkStndt.slice(1);
