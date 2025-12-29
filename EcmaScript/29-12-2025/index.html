@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+  </head>
+  <body>
+    <!-- <a href="https://facebook.com" onclick="test('hello test')"> click me</a> -->
+
+    <!-- <img src="https://img.freepik.com/free-psd/black-isolated-car_23-2151852894.jpg?semt=ais_hybrid&w=740&q=80" alt="" width="300px" onmouseover="src='https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8Y2FyfGVufDB8fDB8fHww'"> -->
+
+    <p id="paragraph" onclick="showPara()">mouse click for more information</p>
+
+    <input
+      id="inputField"
+      type="text"
+      placeholder="entyer your good name"
+      onfocus="redField()"
+      onblur="this.style.backgroundColor='yellow';"
+    />
+
+    <script>
+          function redField(event){
+      console.log("evenet=>",event.style.width = "900px")
+    event.style.width = "900px"
+          }
+    </script>
+  </body>
+</html>
