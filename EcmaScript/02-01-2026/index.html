@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>events</title>
+</head>
+<body>
+  <style>
+    .border{
+      border: 10px dotted red;
+    }
+    .hide{
+      transform: rotate(180deg);
+      transition: transform 3s;
+    }
+    .stable{
+      transform: rotate(360deg);
+      transition: transform 3s;
+    }
+  </style>
+  <h1>Events</h1>
+<!-- <form onsubmit="checkEmail('email')">
+  <input type="text" id="email" >
+  <input type="submit" value="order now" >
+</form> -->
+
+<form>
+  roll Num:
+  <input type="text" name="" id="rollNumber" placeholder="enter your roll number" onblur="checkCampus()">
+<br>
+  campus:
+  <input type="text" id="campus" placeholder="campus">
+</form>
+
+
+<p id="para" onclick="expandPara(this)">this is ... click for more </p>
+
+
+<button id="btn" onclick="renderList()">Render list</button>
+
+
+<div id="list">
+  <img src="https://plus.unsplash.com/premium_photo-1661963826911-f369fa24c1a6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmlrZXN8ZW58MHx8MHx8fDA%3D" alt="" width="400px" onmouseover="invisible()" id="img"  class="border">
+</div>
+
+
+
+
+
+
+  <script src="index.js">
+  </script>
+</body>
+</html>
