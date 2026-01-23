@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <h1>Objects</h1>
+
+    <!-- <a href="https://wa.me/03431223329">whatsapp</a> -->
+
+    <!-- <p onclick="checkForPopBlocker()">click for popup</p> -->
+
+    <form onSubmit="return checkForLastName();">
+      Please enter your last name.<br />
+      <input type="text" id="lastNameField" />
+      <input type="submit" value="Submit Form" />
+    </form>
+
+    <input type="password" placeholder="enter password" id="psw" />
+    <input type="checkbox" onclick="psw.type = checked ? 'text' : 'password'" />
+
+    <script src="index.js"></script>
+  </body>
+</html>
