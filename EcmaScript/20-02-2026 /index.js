@@ -7,7 +7,7 @@ import {
   createUserWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-auth.js";
 const firebaseConfig = {
-  apiKey: "AIzaSyDKU1D-ZgLrmgTpAbgMgJtA4U4e70jnb8M",
+  apiKey: process.env.API_KEY,
   authDomain: "smit-mwa-batch-18.firebaseapp.com",
   projectId: "smit-mwa-batch-18",
   storageBucket: "smit-mwa-batch-18.firebasestorage.app",
