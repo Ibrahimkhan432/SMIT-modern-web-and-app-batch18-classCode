@@ -3,27 +3,20 @@
 // import dotenv from "dotenv";
 // dotenv.config();
 // console.log(process.env.API_KEY);
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+
+// Initialize Firebase
 import {
+  initializeApp,
+  firebaseConfig,
   getAuth,
-  createUserWithEmailAndPassword,
+   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
   GoogleAuthProvider,
   signInWithPopup
-} from "https://www.gstatic.com/firebasejs/12.9.0/firebase-auth.js";
-const firebaseConfig = {
-  apiKey: "AIzaSyDKU1D-ZgLrmgTpAbgMgJtA4U4e70jnb8M",
-  authDomain: "smit-mwa-batch-18.firebaseapp.com",
-  projectId: "smit-mwa-batch-18",
-  storageBucket: "smit-mwa-batch-18.firebasestorage.app",
-  messagingSenderId: "514258031376",
-  appId: "1:514258031376:web:7f5d9b6f2209fb72970b95",
-  measurementId: "G-JT7ML11JCK",
-};
+} from './firebase.js'
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 console.log("initialized app=>", app);
 
@@ -59,7 +52,6 @@ onAuthStateChanged(auth, (user) => {
 function signup() {
   var semail = document.getElementById("semail").value;
   var spassword = document.getElementById("spassword").value;
-
   createUserWithEmailAndPassword(auth, semail, spassword)
     .then((userCredential) => {
       const user = userCredential.user;
