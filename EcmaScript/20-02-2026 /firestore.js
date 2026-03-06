@@ -103,3 +103,6 @@ async function deleteQuote(id){
 await deleteDoc(doc(db,"quotes",id))
 getQuote()
 }
+if(user){
+location.href = './about.html'
+}
